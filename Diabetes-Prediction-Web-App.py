@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #Loading the saved model
-loaded_bundle=pickle.load(open("C:/Users/muska/Desktop/Diabetes/trained_model_and_scaler.sav","rb"))
+loaded_bundle=pickle.load(open("trained_model_and_scaler.sav","rb"))
 model = loaded_bundle["model"]
 scaler = loaded_bundle["scaler"]
 
